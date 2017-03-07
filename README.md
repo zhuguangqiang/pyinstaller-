@@ -1,7 +1,7 @@
 # pyinstaller-
 解决pyinstaller不支持中文路径的问题，方法如下：
 
-修改 C:\Python27\Lib\site-packages\pkg_resources\__init__.py ：1522行中的 _fn函数定义如下：
+修改 C:\Python27\Lib\site-packages\pkg_resources\\__init__.py ：1522行中的 _fn函数定义如下：
 
 def _fn(self, base, resource_name):
 
